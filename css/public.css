@@ -1,0 +1,177 @@
+/*公共css文件*/
+header{
+    width: 100%;
+    height: 0.75rem;
+    background: #ececec;
+}
+header h6{
+    font-size: 0.36rem;
+    line-height: 0.75rem;
+    text-align: center;
+    position: relative;
+}
+header h6 i.iconguanbi{
+    position: absolute;
+    top: 0;
+    left: 0.36rem;
+    font-size: 0.29rem;
+}
+header h6 i.iconmore{
+    position: absolute;
+    top: 0;
+    right: 0.36rem;
+    font-size: 0.29rem;
+}
+
+/*搜索框*/
+.search{
+    width: 100%;
+    background: #fff;
+    overflow: hidden;
+}
+.search-con{
+    width: 94%;
+    height: 0.6rem;
+    margin: 0.22rem auto;
+    background: #f5f7f6;
+    color: #999;
+    text-align: center;
+    line-height: 0.6rem;
+}
+.search i.iconfont{
+    font-size: 0.3rem;
+}
+.search span{
+    font-size: 0.26rem;
+}
+
+/*底部*/
+footer{
+    width: 100%;
+    height: 0.98rem;
+    border-top: 0.01rem solid #d2d2d2;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+}
+footer ul{
+    width: 100%;
+    height: 100%;
+}
+footer ul li{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+footer ul li i.iconfont{
+    font-size: 0.35rem;
+    line-height: 0.55rem;
+    color: #999;
+}
+footer ul li p{
+    font-size: 0.22rem;
+    color: #999;
+}
+footer ul li.active p{
+    color: #d8a452;
+}
+footer ul li.active i{
+    color: #d8a452;
+}
+
+/*导航*/
+nav{
+    width: 100%;
+    height: 0.82rem;
+    overflow: hidden;
+    background: #fff;
+}
+nav ul{
+    width: 100%;
+    height: 100%;
+}
+nav ul li{
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+nav ul li a{
+    color: #1a1a1a;
+    font-size: 0.26rem;
+    line-height: 0.82rem;
+}
+nav ul li.active a{
+    color: #d8a452;
+}
+nav ul li.active{
+    position: relative;
+}
+nav ul li.active a::after{
+    content: "";/*不写会出错*/
+    display: block;
+    width: 0.56rem;
+    height: 0.04rem;
+    background-color: #d8a452;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    margin-left: -0.28rem;
+}
+
+/*所有title*/
+.title h6{
+    text-align: center;
+    line-height: 0.4rem;
+    margin-top: 0.42rem;
+    line-height: 0.4rem;
+    font-size: 0.24rem;
+    color: #595957;
+}
+.title i{
+    font-size: 0.24rem;
+}
+.title h6 p{
+    line-height: 0.4rem;
+    font-size: 0.2rem;
+}
+
+/*猜你喜欢*/
+.favorite{
+    width: 100%;
+    overflow: hidden;
+    background-color: #fff;
+    border-top: 0.01rem solid #bfbfbf;
+    margin-top: 0.2rem;
+}
+.favorite-con{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 0.4rem;
+}
+.favorite-con li{
+    width: 41%;
+    padding-bottom: 0.41rem;
+}
+.favorite-con li .fa-img{
+    width: 100%;
+    height: 3.08rem;
+    background: #f6f6f6;
+}
+.favorite-con li .fa-img img{
+    width: 100%;
+    height: 100%;
+}
+.favorite-con li h6{
+    line-height: 0.33rem;
+    font-size: 0.24rem;
+    color: #1a1a1a;
+    margin-top: 0.15rem;
+}
+.favorite-con li span{
+    font-size: 0.28rem;
+    color: #d8a452;
+    line-height: 0.41rem;
+}

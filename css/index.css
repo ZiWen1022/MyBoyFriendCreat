@@ -1,0 +1,228 @@
+.index{
+    background: #f6f6f6;
+}
+
+/*轮播图*/
+.chart{
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+    padding: 0.2rem 0;
+}
+.chart .chart-tu{
+    width: 100%;
+    height: 4.5rem;
+    background-color: orchid;
+}
+.chart img{
+    width: 100%;
+    height: 100%;
+}
+.chart ul{
+    width: 100%;
+    height: 0.74rem;
+}
+.chart ul li{
+    width: 25%;
+    float: left;
+    text-align: center;
+    line-height: 0.74rem;
+}
+.chart ul li a i{
+    color: rgba(1,1,1,0.8);
+    font-size: 0.22rem;
+}
+
+/*热卖产品*/
+.hot{
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+    margin-top: 0.2rem;
+}
+.hot img{
+    width: 100%;
+    height: 100%;
+}
+.hot .hot-bottom{
+    width: 100%;
+    height: 6.6rem;
+    padding: 0 0.6rem 0.3rem;
+}
+.hot .hot-bottom ul li img{
+    width: 100%;
+    height: 100%;
+}
+.hot .hot-bottom ul li{
+    float: left;
+    width: 3.03rem;
+    height: 3.05rem;
+    margin-top: 0.22rem;
+}
+.hot .hot-bottom ul li:nth-child(2n){
+    margin-left: 0.22rem;
+}
+
+
+/*新品上市*/
+.arrival{
+    width: 100%;
+    overflow: hidden;
+    background-color:#fff;
+    margin-top: 0.2rem;
+}
+.arrival img{
+    width: 100%;
+    height: 100%;
+}
+.arrival h6{
+    width: 100%;
+    margin-top: 0.42rem;
+    height: 0.4rem;
+    text-align: center;
+    line-height: 0.4rem;
+    color: #282727;
+    font-size: 0.24rem;
+}
+.arrival i.iconfont{
+    font-size: 0.35rem;
+    color: #282727;
+}
+.arrival p{
+    font-size: 0.24rem;
+    color: #595957;
+    text-align: center;
+}
+.arrival-con{
+    margin-top: 0.4rem;
+    width: 100%;
+    overflow: hidden;
+}
+.arrival-con-left{
+    width: 64%;
+    float: left;
+    margin-left: 8%;
+    background-color: #fafafa;
+    padding: 0.24rem 0.29rem;
+    padding-left: 0;
+    box-sizing: border-box;
+}
+.arrival-con-left img{
+    width: 100%;
+}
+.arrival-con-right{
+    width: 28%;
+    float: left;
+}
+.arrival-con-right h3{
+    font-size: 0.24rem;
+    color: #282727;
+    margin-top: 0.43rem;
+}
+.arrival-con-right p{
+    font-size: 0.18rem;
+    color: rgba(40,39,39,0.7);
+    line-height: 0.35rem;
+    text-align: left;
+}
+.arrival-con-right span{
+    display: inline-block;
+    font-size: 0.18rem;
+    color: #282727;
+    margin-top: 0.5rem;
+}
+.arrival-con-bottom{
+    clear: both;
+    width: 1.43rem;
+    height: 0.38rem;
+    border: 2px solid #d2d2d2;
+    text-align: center;
+    line-height: 0.38rem;
+    margin: 0.4rem auto;
+    font-size: 0.24rem;
+    color: #282727;
+}
+
+/*发现好货*/
+.list{
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+    margin-top: 0.2rem;
+}
+.list img{
+    width: 100%;
+    height: 100%;
+}
+.list .list-bottom{
+    width: 100%;
+    height: 7.18rem;
+    padding: 0 0.24rem;
+}
+.list .list-bottom li{
+    float: left;
+    margin-top: 0.24rem;
+    overflow: hidden;
+    margin-left: 0.58rem;
+}
+.list .list-bottom li:first-child{
+    margin-left: 0;
+}
+.list .list-bottom li:nth-child(4){
+    margin-left: 0;
+}
+.list .list-bottom div{
+    width: 1.95rem;
+    height: 1.95rem;
+}
+.list .list-bottom div img{
+    width: 100%;
+    height: 100%;
+}
+.list .list-bottom aside{
+    width: 1.76rem;
+    font-size: 0.24rem;
+    color: rgba(1,1,1,0.8);
+    overflow: hidden;
+}
+.list .list-bottom p{
+    color: #d8a452;
+    font-size: 0.24rem;
+}
+
+/*更多产品*/
+.more{
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+    margin-top: 0.2rem;
+    padding-bottom: 1.1rem;
+}
+.more img{
+    width: 100%;
+    height: 100%;
+}
+.more .more-bottom{
+    width: 100%;
+    padding: 0 0.59rem;
+    overflow: hidden;
+}
+.more .more-bottom img{
+    width: 100%;
+    height: 100%;
+}
+.more .more-bottom div{
+    width: 6.31rem;
+    height: 3rem;
+    margin-top: 0.2rem;
+    float: left;
+}
+.more .more-bottom li{
+    width: 3.04rem;
+    height: 2.72rem;
+    float: left;
+    margin-top: 0.2rem;
+}
+.more .more-bottom li:nth-child(2n){
+    margin-left: 0.2rem;
+}

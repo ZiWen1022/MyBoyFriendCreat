@@ -1,0 +1,74 @@
+.mine{
+    width: 100%;
+    background: #f2f2f2;
+    padding-bottom: 0.98rem;
+}
+
+/*顶部*/
+.mine .mine-top{
+    width: 100%;
+    height: 2.7rem;
+}
+.mine .mine-top img{
+    width: 100%;
+    height: 100%;
+}
+
+/*flex布局*/
+.mine-ul{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    /*换行*/
+    flex-wrap: wrap;
+}
+.mine-ul li{
+    width: 33.33333333%;
+    height: 1.8rem;
+    border-top: 0.01rem solid #d2d2d2;
+    border-right: 0.01rem solid #d2d2d2;
+    box-sizing: border-box;
+    background: #fff;
+    text-align: center;
+}
+.mine-ul li:nth-child(3n){
+    border-right: 0;
+}
+.mine-ul li:nth-child(1),.mine-ul li:nth-child(2),.mine-ul li:nth-child(3){
+    border-top: 0 ;
+}
+.mine-ul li a i.iconfont{
+    display: block;
+    width: 100%;
+    font-size: 0.3rem;
+    color: #343434;
+}
+.mine-ul li span{
+    width: 100%;
+    color: #343434;
+    font-size: 0.26rem;
+    display: block;
+    line-height: 0.5rem;
+}
+.mine-ul li a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    /*多行居中*/
+    align-content: center;
+    /*水平居中*/
+    justify-content: center;
+}
+
+/*切换账号*/
+.mine .bottom{
+    width: 100%;
+    height: 1.2rem;
+    background-color: #fff;
+    margin: 0.2rem 0;
+    text-align: center;
+    line-height: 1.2rem;
+}
+

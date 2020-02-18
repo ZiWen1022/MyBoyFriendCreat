@@ -1,0 +1,208 @@
+.shop{
+    width: 100%;
+    padding-bottom: 1.89rem;
+    background: #f2f2f2;
+}
+.shop .shop-top{
+    width: 100%;
+    height: 2.38rem;
+    background: #fff;
+    margin-bottom: 0.22rem;
+}
+.shop .shop-top img{
+    width: 100%;
+    height: 100%;
+}
+.shop-top li{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.shop-top li .one{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shop-top li .one div{
+    width: 0.26rem;
+    height: 0.26rem;
+    border: 0.02rem solid rgb(191,191,191);
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+.shop-top li .two{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.shop-top li .two div{
+    width: 1.49rem;
+    height: 1.49rem;
+    border: solid 0.02rem rgb(238,238,238);
+    margin-top: 0.22rem;
+}
+.shop-top li .three{
+    width: 59%;
+    height: 100%;
+    margin-left: 0.13rem;
+    display: flex;
+    flex-direction: column;
+}
+.shop-top li .three h5{
+    margin-top: 0.22rem;
+    font-size: 0.24rem;
+    color: rgb(32,32,32);
+    line-height: 0.4rem;
+}
+.shop-top li .three p{
+    font-size: 0.22rem;
+    line-height: 0.4rem;
+    color: rgb(153,153,153);
+}
+.shop-top li .three p span{
+    display: block;
+    height: 0.4rem;
+    float: left;
+    background: rgb(230,227,227);
+    font-size: 0.22rem;
+    line-height: 0.4rem;
+    text-align: center;
+    color: rgb(102,102,102);
+    padding: 0 0.02rem ;
+}
+.shop-top li .three p span i{
+    float: right;
+    font-size: 0.24rem;
+}
+.shop-top li .three h4{
+    color: rgb(216,164,82);
+    line-height: 0.4rem;
+    font-size: 0.28rem;
+}
+.shop-top li .three .nei-bottom{
+    display: flex;
+    margin-top: 0.32rem;
+    color: rgb(191,191,191);
+    font-size: 0.28rem;
+}
+.shop-top li .three .nei-bottom .jia,.shop-top li .three .nei-bottom .jian{
+    width: 0.41rem;
+    height: 0.41rem;
+    border: solid 0.01rem rgb(210,210,210);
+    border-radius: 50%;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 0.41rem;
+}
+.shop-top li .three .nei-bottom .jia{
+    background: rgb(242,242,242);
+}
+.shop-top li .three .nei-bottom .jian{
+    line-height: 0.3rem;
+}
+.shop-top li .three .nei-bottom .shu{
+    line-height: 0.4rem;
+    font-size: 0.28rem;
+    color: rgb(28,28,28);
+    margin: 0 0.4rem;
+}
+.shop-top li .four{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+.shop-top li .four i{
+    font-size: 0.22rem;
+    color: rgba(1,1,1,0.4);
+    margin-bottom: 0.3rem;
+}
+.shop-top li .five{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(216,164,82);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shop-top li .five i{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.4rem;
+}
+.shop-top li .six{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shop-top li .six .fill{
+    width: 0.26rem;
+    height: 0.26rem;
+}
+
+.last{
+    width: 100%;
+    height: 0.92rem;
+    border-top: 1px rgb(204,204,204) solid;
+    border-bottom: 1px rgb(204,204,204) solid;
+    box-sizing: border-box;
+    background: #fff;
+    display: flex;
+}
+.last .yuan{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last .yuan div{
+    width: 0.26rem;
+    height: 0.26rem;
+    border: 0.02rem rgb(127,127,127) solid;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+.last .choose{
+    width: 45%;
+    height: 100%;
+    line-height: 0.92rem;
+    font-size: 0.24rem;
+    color: rgb(26,26,26);
+}
+.last .all{
+    width: 20%;
+    height: 100%;
+    line-height: 0.92rem;
+    color: rgb(26,26,26);
+    font-size: 0.26rem;
+}
+.last .all span{
+    color: rgb(216,164,82);
+}
+.last .jie{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last .jie div{
+    width: 1.5rem;
+    height: 0.6rem;
+    border-radius: 8%;
+    background: rgb(216,164,82);
+    text-align: center;
+    line-height: 0.6rem;
+    color: rgb(255,255,255);
+    font-size: 0.26rem;
+}
+.last{
+    position: fixed;
+    left: 0;
+    bottom: 0.98rem;
+}
